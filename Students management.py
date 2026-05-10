@@ -47,7 +47,7 @@ students = []
 while True:
     clear_screen()
     print('| Welcome to the students grade management |\n')
-    choice = input('1. Add a new student\n2. Display all studentس\n3. Exiting\nEnter your choice: ')
+    choice = input('1. Add a new student\n2. Display all student\n3. Exiting\nEnter your choice: ')
     if choice not in ['1', '2', '3']:
         print('Error, Please choose from the options')
         time.sleep(2)
