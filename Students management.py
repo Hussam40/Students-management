@@ -68,7 +68,7 @@ while True:
                 time.sleep(2)
                 student.print_info()
             print('\nDisplaying finished.')
-            time.sleep(5)
+            exit = input('Press enter to continue')
         else:
             print('Sorry, There is no students to display')
             time.sleep(2)
